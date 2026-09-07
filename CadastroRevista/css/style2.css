@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+h1, p {
+    color: aliceblue;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.caixa-pai {
+    /* background: yellowgreen; */
+    margin-top: 3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.caixa-pai .revista {
+    /* border: 1px solid white;
+    background: red; */
+    width: 300px;
+    height: 400px;
+    padding-right: 1%;
+    
+}
+
+img {
+    width: 300px;
+    height: 400px; 
+}
+
+footer {
+    padding: 8%;
+    text-align: center;
+    height: auto;
+    color:aliceblue;
+    font-family: "Space Grotesk", sans-serif;
+}
